@@ -124,7 +124,7 @@ major_version_tag="v${version%%.*}"
 git checkout -b "${major_version_tag}"
 retry git push origin refs/heads/"${major_version_tag}"
 git tag -f "${major_version_tag}"
-retry git push origin -f refs/tags/"${major_version_tag}"
+retry git push origin --force-with-lease --force-if-includes refs/tags/"${major_version_tag}"
 git checkout main
 git branch -d "${major_version_tag}"
 
