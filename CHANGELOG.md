@@ -10,6 +10,22 @@ Note: In this file, do not use the hard wrap in the middle of a sentence for com
 
 ## [Unreleased]
 
+## [2.65.0] - 2025-12-20
+
+- Support `cargo-insta`. ([#1372](https://github.com/taiki-e/install-action/pull/1372), thanks @CommanderStorm)
+
+- Update `vacuum@latest` to 0.21.2.
+
+## [2.64.2] - 2025-12-19
+
+- Update `zizmor@latest` to 1.19.0.
+
+- Update `mise@latest` to 2025.12.12.
+
+## [2.64.1] - 2025-12-18
+
+- Update `tombi@latest` to 0.7.8.
+
 - Update `mise@latest` to 2025.12.11.
 
 ## [2.64.0] - 2025-12-17
@@ -5149,7 +5165,10 @@ Note: This release is considered a breaking change because installing on version
 
 Initial release
 
-[Unreleased]: https://github.com/taiki-e/install-action/compare/v2.64.0...HEAD
+[Unreleased]: https://github.com/taiki-e/install-action/compare/v2.65.0...HEAD
+[2.65.0]: https://github.com/taiki-e/install-action/compare/v2.64.2...v2.65.0
+[2.64.2]: https://github.com/taiki-e/install-action/compare/v2.64.1...v2.64.2
+[2.64.1]: https://github.com/taiki-e/install-action/compare/v2.64.0...v2.64.1
 [2.64.0]: https://github.com/taiki-e/install-action/compare/v2.63.3...v2.64.0
 [2.63.3]: https://github.com/taiki-e/install-action/compare/v2.63.2...v2.63.3
 [2.63.2]: https://github.com/taiki-e/install-action/compare/v2.63.1...v2.63.2
