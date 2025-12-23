@@ -10,6 +10,20 @@ Note: In this file, do not use the hard wrap in the middle of a sentence for com
 
 ## [Unreleased]
 
+## [2.65.2] - 2025-12-23
+
+- Update `prek@latest` to 0.2.24.
+
+- Update `wasmtime@latest` to 40.0.0.
+
+- Update `vacuum@latest` to 0.21.7.
+
+- Update `tombi@latest` to 0.7.10.
+
+- Update `syft@latest` to 1.39.0.
+
+- Update `cargo-binstall@latest` to 1.16.5.
+
 ## [2.65.1] - 2025-12-21
 
 - Update `tombi@latest` to 0.7.9.
@@ -5173,7 +5187,8 @@ Note: This release is considered a breaking change because installing on version
 
 Initial release
 
-[Unreleased]: https://github.com/taiki-e/install-action/compare/v2.65.1...HEAD
+[Unreleased]: https://github.com/taiki-e/install-action/compare/v2.65.2...HEAD
+[2.65.2]: https://github.com/taiki-e/install-action/compare/v2.65.1...v2.65.2
 [2.65.1]: https://github.com/taiki-e/install-action/compare/v2.65.0...v2.65.1
 [2.65.0]: https://github.com/taiki-e/install-action/compare/v2.64.2...v2.65.0
 [2.64.2]: https://github.com/taiki-e/install-action/compare/v2.64.1...v2.64.2
